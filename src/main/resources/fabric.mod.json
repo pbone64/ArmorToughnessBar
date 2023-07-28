@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "armor_toughness_bar",
+  "version": "${version}",
+  "name": "Armor Toughness Bar",
+  "description": "A dead-simple armor toughness bar for Fabric.",
+  "authors": [ "pbone" ],
+  "contact": {
+    "repo": "https://github.com/Pbone3/ArmorToughnessBar"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/armor_toughness_bar/icon.png",
+  "environment": "client",
+  "entrypoints": { },
+  "mixins": [
+    "armor_toughness_bar.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

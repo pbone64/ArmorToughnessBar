@@ -1,0 +1,5 @@
+A dead-simple armor toughness bar for Fabric.
+
+Possible future features:
+- Config to move the bar.
+- Support mods that adds bars in the same spot.
